@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: nginx
-  name: nginx
+  name: argocd-nginx
 spec:
   ports:
   - port: 80
