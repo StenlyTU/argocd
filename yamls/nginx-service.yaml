@@ -4,7 +4,6 @@ metadata:
   labels:
     app: nginx
   name: nginx
-  namespace: default
 spec:
   ports:
   - port: 80
@@ -12,4 +11,4 @@ spec:
     targetPort: 80
   selector:
     app: nginx
-  type: NodePort
+  type: ClusterIP
